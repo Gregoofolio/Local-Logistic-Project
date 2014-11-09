@@ -640,7 +640,7 @@ pre {
   #about .arrow-down-yellow {
     height: 80px;
     width: 100%;
-    background: url(/img/arrow-down-yellow.png) center center;
+    background: url(../img/arrow-down-yellow.png) center center;
     background-size: cover; }
   #about .about-icon {
     display: block;
