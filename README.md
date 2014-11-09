@@ -2,9 +2,7 @@ Local-Logistic-Project
 ======================
 09.11.2014
 
-See page: [Click](http://gregoofolio.github.io/Local-Logistic-Project/)
-
-1.What is it about? 
+1.What is it about?
 
     Ad.1 
     I carried this project just to learn the basics of HTML5, CSS3 and JS with jQuery elements. 
@@ -27,8 +25,8 @@ See page: [Click](http://gregoofolio.github.io/Local-Logistic-Project/)
   	2.5. Basics of Bootstrap (container with responive columns, dropdown-button for mobile view, glyphicons).
   	2.6. Parallax backrounds (moving at scroll or staying in one position).
   	2.7. Basics of JS and jQery:
-  	     2.7.1. Adding class .sticky to the navbar which change background to white when user scroll page by 200pxs
-  	            and add .scroll-to-top button at 800pxs scroll.
+  	     2.7.1. Adding class .sticky to the navbar which change background to white when user scroll page by 100pxs
+  	            and add .scroll-to-top button at 700pxs scroll.
   	     2.7.2. Adding class .active-section to elements of navbar when specific section reach top of the page.
   	            These elements also gets .active-section class when you clik on them.
   	     2.7.3. Smooth scroll through #sections on click.
@@ -37,7 +35,7 @@ See page: [Click](http://gregoofolio.github.io/Local-Logistic-Project/)
   	            These dots are also part of navigation through clients.
   	     2.7.5. Loader-gif at start before page loads fully.
   	2.8. Using CSS3 transition atribute for hovered elements.
-  	2.9. Working Contact Form based on FORMS by Brace(http://forms.brace.io/).
+  	2.9. Working Contact Form based on FORMS by Brace (http://forms.brace.io/).
   	2.10. Google Maps API+adding marker.
   	2.11. Fixed footer at bottom (z-indexed to minus) which is revealed at the end of page.
   	2.12. Designing of page nowadays.
@@ -56,10 +54,15 @@ See page: [Click](http://gregoofolio.github.io/Local-Logistic-Project/)
 
 4.See page!
     
-    Ad.4
-    http://gregoofolio.github.io/Local-Logistic-Project/
+Ad.4
+[CLICK] (http://gregoofolio.github.io/Local-Logistic-Project/)
 
 5.You see bugs or bad positioning of elements on mobile, tablets or for different browsers?
 
     Ad.5
     Feel free to fork and pull request!
+
+6.Design
+
+![Design](/design.png)
+
