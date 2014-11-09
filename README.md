@@ -2,7 +2,9 @@ Local-Logistic-Project
 ======================
 09.11.2014
 
-1.What is it about?
+See page: [Click](http://jekyllrb.com/)
+
+1.What is it about? 
 
     Ad.1 
     I carried this project just to learn the basics of HTML5, CSS3 and JS with jQuery elements. 
@@ -16,7 +18,7 @@ Local-Logistic-Project
   	
   	2.1. Structure of HTML5 file.
   	2.2. Basics of CSS3 and SASS (nested elements are awesome!).
-  	2.3. [Jekyll](http://jekyllrb.com/) as a simply Blog CMS based on RUBY. 
+  	2.3. Jekyll (http://jekyllrb.com/) as a simply Blog CMS based on RUBY. 
          This includes files such as settings.yml, where the addition of new customer 
          data adds new elements to the slider on the page. Likewise the posts. 
          The page displays last 3 posts that are generated in a file giving only the date,
@@ -35,7 +37,7 @@ Local-Logistic-Project
   	            These dots are also part of navigation through clients.
   	     2.7.5. Loader-gif at start before page loads fully.
   	2.8. Using CSS3 transition atribute for hovered elements.
-  	2.9. Working Contact Form based on [FORMS by Brace](http://forms.brace.io/).
+  	2.9. Working Contact Form based on FORMS by Brace(http://forms.brace.io/).
   	2.10. Google Maps API+adding marker.
   	2.11. Fixed footer at bottom (z-indexed to minus) which is revealed at the end of page.
   	2.12. Designing of page nowadays.
@@ -55,7 +57,7 @@ Local-Logistic-Project
 4.See page!
     
     Ad.4
-    [Click](http://gregoofolio.github.io/Local-Logistic-Project/)
+    http://gregoofolio.github.io/Local-Logistic-Project/
 
 5.You see bugs or bad positioning of elements on mobile, tablets or for different browsers?
 
