@@ -1,0 +1,212 @@
+
+.service-bg-long{
+	background:$dark;
+	
+}
+.services-bg-map{
+	width:100%;
+	background: url(../img/world-bg.png) 50% 0  fixed;
+	background-size: cover;
+	height:100%;
+	
+	
+	.arrow-down-white{
+		background:url(../img/arrow-down-white.png) center center;
+		background-size:cover;
+		width:100%;
+		height:80px;
+		
+	}
+	.arrow-down-white-reverse{
+		background:url(../img/arrow-down-white-reverse.png) center center;
+		background-size:cover;
+		width:100%;
+		height: 80px;
+	}
+
+	h3{
+		@extend %h1-bold;
+		text-align: center;
+		color:white;
+		margin-top: 75px;
+	}
+	.services-icon{
+		width: 50px;
+		height: 50px;
+		margin:0 auto;
+		padding-top: 80px;
+		
+		
+	}
+	.container{
+		margin-top: 100px;
+
+		h2{
+			color:white;
+			text-align: center;
+			-webkit-font-family: "Raleway";
+			-moz-font-family: "Raleway";
+			-ms-font-family: "Raleway";
+			-o-font-family: "Raleway";
+			font-family: "Raleway";
+
+			-webkit-font-size: 28px;
+			-moz-font-size: 28px;
+			-ms-font-size: 28px;
+			-o-font-size: 28px;
+			font-size: 28px;
+
+			-webkit-font-weight: 400;
+			-moz-font-weight: 400;
+			-ms-font-weight: 400;
+			-o-font-weight: 400;
+			font-weight: 400;
+		}
+		.service-unit{
+			width: 78%;
+			margin: 0 auto;
+			margin-bottom: 50px;
+			background:white;
+			position: relative;
+
+
+			-webkit-border: 3px solid $primary;
+			-moz-border: 3px solid $primary;
+			-ms-border: 3px solid $primary;
+			-o-border: 3px solid $primary;
+			border: 3px solid $primary;
+
+			.service-curtain{
+				position: absolute;
+				top:0;
+				background: $primary;
+				width:23%;
+				height:100%;
+				-webkit-transition: all 300ms ease;
+				-o-transition: all 300ms ease;
+				transition: all 300ms ease;
+				em{
+					text-transform: uppercase;
+					display: block;
+					text-align: center;
+					color:$dark;
+					opacity:0;
+
+					-webkit-font-family: $open;	
+					-moz-font-family: $open;	
+					-ms-font-family: $open;	
+					-o-font-family: $open;	
+					font-family: $open;	
+
+					-webkit-font-weight: 400;
+					-moz-font-weight: 400;
+					-ms-font-weight: 400;
+					-o-font-weight: 400;
+					font-weight: 400;
+
+					-webkit-font-size: 16px;
+					-moz-font-size: 16px;
+					-ms-font-size: 16px;
+					-o-font-size: 16px;
+					font-size: 16px;
+
+					-webkit-transition: all 300ms ease;
+					-o-transition: all 300ms ease;
+					transition: all 300ms ease;
+
+				}
+
+				.service-unit-icon{
+					width:50px;
+					height: 50px;
+					margin:0 auto;
+					margin-top:60px;
+
+					path{
+						fill:$dark;
+					}
+				}
+			}
+
+			p{
+				padding:20px;
+				padding-left: 25%;
+				margin: 0;
+				-webkit-font-family: $open;
+				-moz-font-family: $open;
+				-ms-font-family: $open;
+				-o-font-family: $open;
+				font-family: $open;
+
+				-webkit-font-size: 16px;
+				-moz-font-size: 16px;
+				-ms-font-size: 16px;
+				-o-font-size: 16px;
+				font-size: 16px;
+
+				-webkit-font-weight: 300;
+				-moz-font-weight: 300;
+				-ms-font-weight: 300;
+				-o-font-weight: 300;
+				font-weight: 300;
+			}
+			&:hover{
+
+				.service-curtain{
+					width:50%;
+					cursor:pointer;
+
+					em{
+						opacity:1;
+					}
+				}
+			}
+
+		}
+
+	}
+}
+
+
+@media screen and (max-width:994px){
+	.container{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:1199px){
+
+	.services-bg-map .container .service-unit .service-curtain .service-unit-icon{
+		margin-top:80px;
+	}
+}
+
+
+
+@media screen and (max-width:991px){
+
+	.services-bg-map .container .service-unit .service-curtain .service-unit-icon{
+		margin-top:40px;
+	}
+}
+@media screen and (max-width:821px){
+
+	.services-bg-map .container .service-unit .service-curtain .service-unit-icon{
+		margin-top:60px;
+	}
+}
+
+@media screen and (max-width:494px){
+
+	.service-unit{
+		height:150px;
+		overflow: hidden;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.services-bg-map .container .service-unit .service-curtain .service-unit-icon{
+		margin-top:40px;
+		width:30px;
+		height: 30px;
+	}
+}

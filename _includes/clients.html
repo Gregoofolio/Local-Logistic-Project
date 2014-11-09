@@ -1,0 +1,55 @@
+<section id="clients">
+	
+	
+	<div class="clients-icon">
+		{% include svg/clients-icon.html %}
+	</div>
+	<h2>Clients</h2>
+	<div class="decoration"></div>
+
+	<div class="client-controls">
+		<div class="client-prev">
+			{% include svg/client-prev.html %}
+		</div>
+		<div class="client-next">
+			{% include svg/client-next.html %}
+		</div>
+	</div>
+	<div class="client-belt">
+		{% for client in site.data.settings.clients %}
+		<div class="client-unit">
+			<div class="client-thumb">
+				<div class="client-logo">
+					<img src="../img/{{client.logo}}" height="150" width="150" alt="client-logo">
+				</div>
+				<strong class="client-name">{{ client.name }}</strong>
+				<em class="client-title">{{ client.title }}</em>
+				<strong>said about US:</strong>
+			</div>
+			<div class="client-content">
+				<div class="client-quote-mark-up">
+					{% include svg/quote-icon.html %}
+				</div>
+				<div class="client-quote-mark-down">
+					{% include svg/quote-icon.html %}
+				</div>
+				<p>	
+					{{ client.quote}}
+				</p>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="clients-dots">
+		{% for client in site.data.settings.clients %}
+		<div class="client-dot"></div>
+		{% endfor %}
+	</div>
+
+	<div class="rest-clients-holder">
+		<a href="">
+			<p class="rest-clients">Check out the rest of our clients <span class="glyphicon glyphicon-chevron-right"></span></p>
+		</a>
+	</div>
+
+</section>

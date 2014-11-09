@@ -1,0 +1,8 @@
+#---------------
+# Clients
+
+clients:
+- {name: 'Chad Coolguy', logo: 'logo1.png', title: Entrepreneurial business builder, quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia voluptatem, repellendus tempora maiores molestiae, dolores in! Repudiandae ducimus totam, iste, dignissimos quisquam sed est eligendi omnis incidunt ad ut. Alias!' }
+- {name: 'Ip Man', logo: 'logo2.png', title: Menager of development, quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, cumque quod ullam maxime eveniet pariatur vel incidunt aut fugit officia a quas deleniti molestias perferendis eos non suscipit voluptatibus odit.' }
+- {name: 'Robert De Faro ', logo: 'logo3.png', title: Main Warehouse Sepervisor, quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ex facilis, consequatur harum dolorum reiciendis praesentium obcaecati non repudiandae ad est numquam excepturi, expedita vitae! In, odit excepturi exercitationem optio.' }
+- {name: 'Nick Freeman', logo: 'logo4.png', title: Supply Chain Manager, quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla optio veritatis obcaecati eius excepturi enim quasi quod et, expedita animi possimus porro hic voluptate eaque molestiae sed, aperiam aliquid rem.' }

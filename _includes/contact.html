@@ -1,0 +1,83 @@
+<section id="contact">
+	<div class="contact-bg">
+		<div class="contact-icon">
+			{% include svg/contact-icon.html %}
+		</div>
+		<h2>Contact</h2>
+		<div class="decoration"></div>
+
+		<p class="contact-info">
+			If you would like to learn more about our work or ask for something specific, <br/>
+			 or even just contact us, please use one of the following options
+		</p>
+
+		<form method="POST" action="//forms.brace.io/{{page.email}}">
+		    <div class="form-info-holder">
+			    <label for="name">
+			    	<span>Your name :</span>
+					<input id="form-name" type="text" name="name" placeholder="e.g. John Novak">
+			    </label>
+
+			    <label  for="email">
+			    	<span> Your Email :</span>
+			    	<input id="form-email" type="email" name="_replyto" placeholder="e.g. johnnovak@domain.io">
+			    </label>
+		    </div>
+
+
+
+		    <label id="textarea-label" for="message">
+		    	<span>Your Message :</span>
+		    	<textarea name="message" id="form-message"  rows="3" placeholder="Write something cool..."></textarea>
+		    </label>
+		     
+		 	<input id="form-submit" type="submit" value="Send">
+		</form> 
+		
+		<span>Or</span>
+
+		<div class="contact-units-holder">
+			
+			<div class="contact-unit" id="call-us">
+				<p>Call us :</p>
+				<div class="contact-unit-decoration"></div>
+				<p class="our-pone">55-555-55</p>
+			</div>
+			
+			<div class="contact-unit" id="stalk-us">
+				<p>Stalk us:</p>
+				<div class="contact-unit-decoration"></div>
+				<div class="contact-icons-wrapper">
+					<a href="">
+						<div class="contact-icon-unit" id="fb-icon">
+							{% include svg/facebook-icon.html %}
+						</div>
+					</a>
+					<a href="">
+						<div class="contact-icon-unit" id="twitter2-icon">
+							{% include svg/twitter-icon.html %}
+						</div>
+					</a>
+					<a href="">
+						<div class="contact-icon-unit" id="google-icon">
+							{% include svg/google-icon.html %}
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="contact-unit" id="find-us">
+				<p>Find us :</p>
+				<div class="contact-unit-decoration"></div>
+				<p class="our-adress">
+					1 Macaulay Court,<br>
+					 Macaulay Road
+					London <br>
+					SW4 0QU
+				</p>
+			</div>
+
+		</div>
+
+	</div>
+</section>

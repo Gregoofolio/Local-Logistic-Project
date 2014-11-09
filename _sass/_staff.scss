@@ -1,0 +1,270 @@
+#staff{
+	background: white;;
+}
+
+.staff-icon{
+	width: 55px;
+	height: 55px;
+	margin: 0 auto;
+	padding-top: 120px;
+	padding-bottom:50px;
+	display: block;
+
+	path{
+		fill:$dark;
+	}
+
+}
+.staff-header{
+	display: block;
+	text-align: center;
+	@extend %h1-bold;
+	margin-top:15px;
+}
+
+.staff-container{
+	margin-top: 160px;
+	
+	.staff-unit{
+		width:200px;
+		margin: 0 auto;
+		background: $dark;
+		-webkit-border-radius: 20px 20px 0 0;
+		-moz-border-radius: 20px 20px 0 0;
+		-ms-border-radius: 20px 20px 0 0;
+		-o-border-radius: 20px 20px 0 0;
+		border-radius: 20px 20px 0 0;
+		border:1px solid $primary;
+		margin-bottom:130px;
+		.staff-face-1{
+			width: 150px;
+			height: 150px;
+			background: url(../img/face1.jpg) center center;
+			background-size: cover;
+			position: absolute;
+			top:-55px;
+			left:70px;
+			text-align: center;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			-ms-border-radius: 50%;
+			-o-border-radius: 50%;
+			border-radius: 50%;
+		}
+		.staff-face-2{
+			width: 150px;
+			height: 150px;
+			background: url(../img/face2.jpg) center center;
+			background-size: cover;
+			position: absolute;
+			top:-55px;
+			left:70px;
+			text-align: center;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			-ms-border-radius: 50%;
+			-o-border-radius: 50%;
+			border-radius: 50%;
+		}
+		.staff-face-3{
+			width: 150px;
+			height: 150px;
+			background: url(../img/face3.jpg) center center;
+			background-size: cover;
+			position: absolute;
+			top:-55px;
+			left:70px;
+			text-align: center;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			-ms-border-radius: 50%;
+			-o-border-radius: 50%;
+			border-radius: 50%;
+		}
+		.staff-face-4{
+			width: 150px;
+			height: 150px;
+			background: url(../img/face4.jpg) center center;
+			background-size: cover;
+			position: absolute;
+			top:-55px;
+			left:70px;
+			text-align: center;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			-ms-border-radius: 50%;
+			-o-border-radius: 50%;
+			border-radius: 50%;
+		}		
+		h3{
+			color:white;
+			text-transform: uppercase;
+			text-align: center;
+			padding-top: 120px;
+
+			-webkit-font-family: "Raleway";
+			-moz-font-family: "Raleway";
+			-ms-font-family: "Raleway";
+			-o-font-family: "Raleway";
+			font-family: "Raleway";
+
+			-webkit-font-size: 20px;
+			-moz-font-size: 20px;
+			-ms-font-size: 20px;
+			-o-font-size: 20px;
+			font-size: 20px;
+
+			-webkit-font-weight: 700;
+			-moz-font-weight: 700;
+			-ms-font-weight: 700;
+			-o-font-weight: 700;
+			font-weight: 700;
+		}
+		p{
+			padding:20px;
+			color:white;
+
+			-webkit-font-family: $open;
+			-moz-font-family: $open;
+			-ms-font-family: $open;
+			-o-font-family: $open;
+			font-family: $open;
+
+			-webkit-font-size: 14px;
+			-moz-font-size: 14px;
+			-ms-font-size: 14px;
+			-o-font-size: 14px;
+			font-size: 14px;
+
+			-webkit-font-weight: 300;
+			-moz-font-weight: 300;
+			-ms-font-weight: 300;
+			-o-font-weight: 300;
+			font-weight: 300;
+		}
+		.job-title-holder{
+			background: $primary;
+
+			p{
+				color:$dark;
+				text-align: center;
+
+				-webkit-font-style: italic;
+				-moz-font-style: italic;
+				-ms-font-style: italic;
+				-o-font-style: italic;
+				font-style: italic;
+			}
+		}
+		
+	}
+}
+.rest-team-holder{
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+
+	.rest-team-members{
+
+
+		@extend %h1-bold;
+
+		color: $primary;
+		display: inline-block;
+		text-align: center;
+		margin:0 auto;
+		text-transform: uppercase;
+		-webkit-transition: all 300ms ease;
+		-o-transition: all 300ms ease;
+		transition: all 300ms ease;
+
+		&:hover{
+			opacity:0.6;
+		}
+	}
+}
+.go-ahead{
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	line-height:2;
+	color:$dark;
+	padding-bottom: 70px;
+
+	-webkit-font-family: "Raleway";
+	-moz-font-family: "Raleway";
+	-ms-font-family: "Raleway";
+	-o-font-family: "Raleway";
+	font-family: "Raleway";
+
+	-webkit-font-size: 24px;
+	-moz-font-size: 24px;
+	-ms-font-size: 24px;
+	-o-font-size: 24px;
+	font-size: 24px;
+
+	-webkit-font-weight: 300;
+	-moz-font-weight: 300;
+	-ms-font-weight: 300;
+	-o-font-weight: 300;
+	font-weight: 300;
+}
+
+
+
+@media screen and (max-width:1199px){
+	.staff-container .staff-unit .staff-face-1{
+		width:160px;
+		height:160px;
+		left:42px;
+	} 
+	.staff-container .staff-unit .staff-face-2{
+		width:160px;
+		height:160px;
+		left:42px;
+	} 
+	.staff-container .staff-unit .staff-face-3{
+		width:160px;
+		height:160px;
+		left:42px;
+	} 
+	.staff-container .staff-unit .staff-face-4{
+		width:160px;
+		height:160px;
+		left:42px;
+	} 
+}
+@media screen and (max-width:991px){
+
+	.staff-container .staff-unit{
+		width:100%;
+	}
+	.staff-container .staff-unit h3{
+		padding-top: 50px;
+	}
+	.staff-container .staff-unit .staff-face-1{
+		width:160px;
+		height:160px;
+		left:18px;;
+	}
+	.staff-container .staff-unit .staff-face-2{
+		width:160px;
+		height:160px;
+		left:18px;;
+	} 
+	.staff-container .staff-unit .staff-face-3{
+		width:160px;
+		height:160px;
+		left:18px;;
+	} 
+	.staff-container .staff-unit .staff-face-4{
+		width:160px;
+		height:160px;
+		left:18px;;
+	}  
+}
+@media screen and (max-width:629px){
+	.staff-container .staff-unit h3{
+		padding-top: 90px;
+	}
+}

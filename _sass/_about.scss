@@ -1,0 +1,71 @@
+#about{
+	background: white;
+	.arrow-down-yellow{
+		height:80px;
+		width:100%;
+		background: url(/img/arrow-down-yellow.png) center center;
+		background-size:cover;
+
+	}
+	.about-icon{
+		display:block;
+		position: relative;
+		top:15px;
+		margin-top: 50px;
+		text-align:center;
+	}
+	h1{
+		@extend %h1-bold;
+		text-align: center;
+	}
+	.container {
+		margin-top: 50px;
+		padding-bottom: 100px;
+
+
+		h2{
+			@extend %h1-bold;
+			-webkit-font-size: 24px;
+			-moz-font-size: 24px;
+			-ms-font-size: 24px;
+			-o-font-size: 24px;
+			font-size: 24px;
+			margin-top: 0;
+		}
+		p{
+			color:$dark;
+			margin-bottom: 0;
+			line-height: 2.3;
+			-webkit-font-family: $open;
+			-moz-font-family: $open;
+			-ms-font-family: $open;
+			-o-font-family: $open;
+			font-family: $open;
+		}
+		.col-lg-12{
+			margin-top: 50px;
+		}
+
+		.col-lg-6,.col-lg-12{
+			border-left: 3px solid $primary;
+		}
+	}
+	
+
+}
+
+@media screen and (max-width:994px){
+	#about .container .row .col-lg-6:nth-child(2){
+		margin-top:50px;
+	}
+}
+@media screen and (max-width:765px){
+	#about .container .row .col-lg-6,.col-lg-12{
+	border-right: 3px solid $primary;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+	
+}
+
+
