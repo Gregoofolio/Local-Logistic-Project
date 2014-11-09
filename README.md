@@ -58,4 +58,4 @@ Local-Logistic-Project
 5.You see bugs or bad positioning of elements on mobile, tablets or for different browsers?
 
     Ad.5
-    Feel free to fork!
+    Feel free to fork and pull request!
