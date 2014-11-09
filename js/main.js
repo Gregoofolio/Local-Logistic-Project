@@ -4,6 +4,9 @@ clientCarousel();
 
 
 });
+$(window).load(function() {
+  $(".loader").fadeOut("slow");
+})
 //FUNCTION smooth scroll for starting-icon-scroll and scroll-to-top icon
 function scroll_to(selector) {
     $('html,body').animate({scrollTop: $(selector).offset().top}, 1000);
