@@ -25,8 +25,8 @@ Local-Logistic-Project
   	2.5. Basics of Bootstrap (container with responive columns, dropdown-button for mobile view, glyphicons).
   	2.6. Parallax backrounds (moving at scroll or staying in one position).
   	2.7. Basics of JS and jQery:
-  	     2.7.1. Adding class .sticky to the navbar which change background to white when user scroll page by 200pxs
-  	            and add .scroll-to-top button at 800pxs scroll.
+  	     2.7.1. Adding class .sticky to the navbar which change background to white when user scroll page by 100pxs
+  	            and add .scroll-to-top button at 700pxs scroll.
   	     2.7.2. Adding class .active-section to elements of navbar when specific section reach top of the page.
   	            These elements also gets .active-section class when you clik on them.
   	     2.7.3. Smooth scroll through #sections on click.
