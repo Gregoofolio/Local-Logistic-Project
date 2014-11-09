@@ -18,7 +18,7 @@ Local-Logistic-Project
   	2.2. Basics of CSS3 and SASS (nested elements are awesome!).
   	2.3. Jekyll (http://jekyllrb.com/) as a simply Blog CMS based on RUBY. 
          This includes files such as settings.yml, where the addition of new customer 
-         data adds new elements to the slider on the side. Likewise the posts. 
+         data adds new elements to the slider on the page. Likewise the posts. 
          The page displays last 3 posts that are generated in a file giving only the date,
          author, any image and content. On click page redirect to that post subpage based on post layout.
   	2.4. What is RWD - Responsive Web Design (includes design, media queries etc.) .
