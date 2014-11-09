@@ -2,7 +2,7 @@ Local-Logistic-Project
 ======================
 09.11.2014
 
-See page: [Click](http://jekyllrb.com/)
+See page: [Click](http://gregoofolio.github.io/Local-Logistic-Project/)
 
 1.What is it about? 
 
