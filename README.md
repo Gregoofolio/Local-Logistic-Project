@@ -61,3 +61,7 @@ Local-Logistic-Project
 
     Ad.5
     Feel free to fork and pull request!
+
+6.Design
+
+![Design](/design.png)
