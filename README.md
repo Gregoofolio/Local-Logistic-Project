@@ -54,8 +54,8 @@ Local-Logistic-Project
 
 4.See page!
     
-    Ad.4
-    http://gregoofolio.github.io/Local-Logistic-Project/
+Ad.4
+[CLICK] (http://gregoofolio.github.io/Local-Logistic-Project/)
 
 5.You see bugs or bad positioning of elements on mobile, tablets or for different browsers?
 
