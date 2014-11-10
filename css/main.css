@@ -356,7 +356,7 @@ pre {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url(../img/truck-bg2.png) center center fixed;
+  background: url(../img/truck-bg2.jpg) center center fixed;
   background-size: cover;
   margin: 0 auto; }
   .start-bg nav {
@@ -695,7 +695,7 @@ pre {
 
 .services-bg-map {
   width: 100%;
-  background: url(../img/world-bg.png) 50% 0 fixed;
+  background: url(../img/world-bg.jpg) 50% 0 fixed;
   background-size: cover;
   height: 100%; }
   .services-bg-map .arrow-down-white {
@@ -1061,7 +1061,7 @@ pre {
   .staff-container .staff-unit h3 {
     padding-top: 90px; } }
 #stats {
-  background: url(../img/road.png) 50% 0 fixed;
+  background: url(../img/road.jpg) 50% 0 fixed;
   margin: 0 auto;
   position: relative;
   -webkit-box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.8);
@@ -1794,7 +1794,7 @@ pre {
     height: 80px; }
 
 .news-bg {
-  background: url(../img/news-bg.png) 50% 0 fixed;
+  background: url(../img/news-bg.jpg) 50% 0 fixed;
   background-size: cover;
   -webkit-box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.8);
   box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.8);
