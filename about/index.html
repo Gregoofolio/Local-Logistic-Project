@@ -15,25 +15,25 @@
     <!-- fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,800,100,200,600,500,900' rel='stylesheet' type='text/css'>
-
     <!-- MY CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/baza.css">
     <link rel="canonical" href="http://yourdomain.com/about/">
-    
-    
     <!-- JS -->
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
-   
+  
 </head>
 
 
   <body style="position: relative;">
-  
+  <script>
+        new WOW().init();
+  </script>
   <div class="loader"></div>
   <section id="header">
 
@@ -114,10 +114,9 @@
 		</div>
 	</a>
 </section>
-  <section id="about">
-	
+  <!--[START] Section About  -->
+<section id="about">   
 	<div class="arrow-down-yellow"></div>
-
 	<div class="about-icon">
 		<?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -139,22 +138,20 @@
 	 M29.95,21.14l-5.29,3.311v-4.361l5.29-3.426V21.14z M29.95,13.987l-5.29,3.311v-4.362l5.29-3.425V13.987z"/>
 </svg>
 	</div>
-
 	<h1>About us</h1>
-
 	<div class="decoration"></div>
-
-	<div class="container">
+	<!-- Container -->
+	<div class="container"> 
 		<div class="row">
-			<div class="col-lg-6 col-md-6">
+			<div class="wow col-lg-6 col-md-6 fadeInLeft animated" data-wow-offset="120">
 				<h2>History</h2>
 				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic blanditiis saepe expedita, similique sit nobis vitae repudiandae ipsa quo sapiente molestias, debitis commodi harum repellat vel possimus repellendus maxime iste.</span><span>Nisi incidunt, a magnam ad velit accusamus vero, labore dolore recusandae eligendi facere sit aspernatur nobis veritatis maiores. Modi id praesentium molestiae itaque corporis voluptatem similique accusamus, recusandae eaque dignissimos.</span></p>
 			</div>
-			<div class="col-lg-6 col-md-6">
+			<div class="wow col-lg-6 col-md-6 fadeInRight animated" data-wow-offset="120">
 				<h2>Values</h2>
 				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nemo cum repellat perspiciatis odit corporis laboriosam architecto obcaecati porro iusto. Rem iure earum laboriosam, nulla placeat quo, perspiciatis culpa eaque.</span><span>Excepturi odio blanditiis illo enim libero, qui quaerat voluptas, ea tenetur repellendus beatae incidunt aliquid suscipit magnam optio eos rerum laborum nostrum. Ratione nam iure nesciunt eveniet, voluptate molestiae molestias!</span></p>
 			</div>
-			<div class="col-lg-12 col-md-12">
+			<div class="wow col-lg-12 col-md-12 fadeInDown animated" data-wow-offset="120">
 				<h2>Goals</h2>
 				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quam, repellat amet cumque nesciunt maiores velit sunt, reiciendis tenetur id pariatur, vitae? Molestias cumque obcaecati explicabo nostrum recusandae, nemo aperiam.</span>
 				<span>Fuga aperiam aut fugiat explicabo saepe ducimus vero quidem aliquid. Autem doloremque fugit quaerat, quod voluptas perspiciatis, cum voluptatem animi ea! Aperiam iure minima reprehenderit atque animi, perspiciatis vitae temporibus!</span>
@@ -163,8 +160,11 @@
 			</div>
 		</div>
 	</div>
+	<!-- [END] Container -->
 </section>
-  <section id="services">
+<!-- [END] Section About -->
+  <!-- [START] Section Services -->
+<section id="services"> 
 	
 	<div class="service-bg-long">
 	<div class="services-bg-map"  data-type="background">
@@ -205,13 +205,12 @@
 		<h3>Services</h3>
 		<div class="decoration"></div>
 
-	
-
-		<div class="container">
-			<row>
+		<!-- Container -->
+		<div class="container"> 
+			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<h2>Logistic</h2>
-					<div class="service-unit">
+					<div class="wow service-unit flipInX animated" data-wow-offset="120">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam dolorem esse quod voluptatum deleniti fugit porro ipsum aut. Dicta, nesciunt. Sequi fugiat ipsa, voluptas doloremque soluta! Quia maiores cumque blanditiis.</p>
 						<a href="">
 							<div class="service-curtain">
@@ -246,7 +245,7 @@
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<h2>Spedition</h2>
-					<div class="service-unit">
+					<div class="wow service-unit flipInX animated" data-wow-offset="120" data-wow-delay="0.3s">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam dolorem esse quod voluptatum deleniti fugit porro ipsum aut. Dicta, nesciunt. Sequi fugiat ipsa, voluptas doloremque soluta! Quia maiores cumque blanditiis.</p>
 						<a href="">
 							<div class="service-curtain">
@@ -297,12 +296,12 @@
 						</a>
 					</div>
 				</div>
-			</row>
+			</div>
 			
-			<row>
+			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<h2>Storage</h2>
-					<div class="service-unit">
+					<div class="wow service-unit flipInX animated" data-wow-offset="120" >
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam dolorem esse quod voluptatum deleniti fugit porro ipsum aut. Dicta, nesciunt. Sequi fugiat ipsa, voluptas doloremque soluta! Quia maiores cumque blanditiis.</p>
 						<a href="">
 							<div class="service-curtain">
@@ -339,7 +338,7 @@
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<h2>Tracking</h2>
-					<div class="service-unit">
+					<div class="wow service-unit flipInX animated" data-wow-offset="120" data-wow-delay="0.3s">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam dolorem esse quod voluptatum deleniti fugit porro ipsum aut. Dicta, nesciunt. Sequi fugiat ipsa, voluptas doloremque soluta! Quia maiores cumque blanditiis.</p>
 						<a href="">
 							<div class="service-curtain">
@@ -369,18 +368,23 @@
 						</a>
 					</div>
 				</div>
-			</row>
-		</div>
+			</div>
+		</div> 
+		<!-- [END] Container -->
 		<div class="arrow-down-white-reverse"></div>
-	</div> <!-- [End] service-bg-map -->
-	</div> <!-- [End] service-bg-long -->
+	</div> 
+	<!-- [END] service-bg-map -->
+	</div>
+	<!-- [END] service-bg-long -->
 
 
-</section>
-  <section id="staff">
+</section> 
+<!-- [END] Section Services -->
+  <!-- [START] Section Staff -->
+<section id="staff">
 	
-<div class="staff-icon">
-	<?xml version="1.0" encoding="utf-8"?>
+	<div class="staff-icon">
+		<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -399,78 +403,71 @@
 	c0.003-0.046,0.022-0.087,0.022-0.13V9.558C6.587,8.753,6.003,8.099,5.29,8.099z"/>
 </svg>
 
-</div>
-<h2 class="staff-header">Our staff</h2>
-<div class="decoration"></div>
+	</div>
+	<h2 class="staff-header">Our staff</h2>
+	<div class="decoration"></div>
 
-<div class="container staff-container">
-	<div class="row">
-		<div class="col-lg-3 col-md-3 col-sm-6">
-
-			<div class="staff-unit">
-				
-				<div class="staff-face-1"></div>
-				<h3>Scott Kowalski</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae similique, illum quia, ipsa a temporibus ratione libero aliquam debitis itaque accusamus veritatis eaque, necessitatibus, voluptatem distinctio! Exercitationem harum, atque molestiae!</p>
-				<div class="job-title-holder">
-					<p>Senior Logistics</p>
+	<!-- Container -->
+	<div class="container staff-container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-6">
+				<div class="wow staff-unit fadeInDown animated" data-wow-offset="150">
+					
+					<div class="staff-face-1"></div>
+					<h3>Scott Kowalski</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae similique, illum quia, ipsa a temporibus ratione libero aliquam debitis itaque accusamus veritatis eaque, necessitatibus, voluptatem distinctio! Exercitationem harum, atque molestiae!</p>
+					<div class="job-title-holder">
+						<p>Senior Logistics</p>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="col-lg-3 col-md-3 col-sm-6">
-			<div class="staff-unit">
-				<div class="staff-face-2"></div>
-				<h3>Katie Fog</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae similique, illum quia, ipsa a temporibus ratione libero aliquam debitis itaque accusamus veritatis eaque, necessitatibus, voluptatem distinctio! Exercitationem harum, atque molestiae!</p>
-				<div class="job-title-holder">
-					<p>Junior Speditor</p>
+			<div class="col-lg-3 col-md-3 col-sm-6">
+				<div class="wow staff-unit fadeInDown animated" data-wow-offset="150">
+					<div class="staff-face-2"></div>
+					<h3>Katie Fog</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae similique, illum quia, ipsa a temporibus ratione libero aliquam debitis itaque accusamus veritatis eaque, necessitatibus, voluptatem distinctio! Exercitationem harum, atque molestiae!</p>
+					<div class="job-title-holder">
+						<p>Junior Speditor</p>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="col-lg-3 col-md-3 col-sm-6">
-			<div class="staff-unit">
-				<div class="staff-face-3"></div>
-				<h3>Matt O'Hara</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae similique, illum quia, ipsa a temporibus ratione libero aliquam debitis itaque accusamus veritatis eaque, necessitatibus, voluptatem distinctio! Exercitationem harum, atque molestiae!</p>
-				<div class="job-title-holder">
-					<p>Truck Driver</p>
+			<div class="col-lg-3 col-md-3 col-sm-6">
+				<div class="wow staff-unit fadeInDown animated" data-wow-offset="150">
+					<div class="staff-face-3"></div>
+					<h3>Matt O'Hara</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae similique, illum quia, ipsa a temporibus ratione libero aliquam debitis itaque accusamus veritatis eaque, necessitatibus, voluptatem distinctio! Exercitationem harum, atque molestiae!</p>
+					<div class="job-title-holder">
+						<p>Truck Driver</p>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="col-lg-3 col-md-3 col-sm-6">
-			<div class="staff-unit">
-				<div class="staff-face-4"></div>
-				<h3>Steven Novak</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae similique, illum quia, ipsa a temporibus ratione libero aliquam debitis itaque accusamus veritatis eaque, necessitatibus, voluptatem distinctio! Exercitationem harum, atque molestiae!</p>
-				<div class="job-title-holder">
-					<p>IT Manager</p>
+			<div class="col-lg-3 col-md-3 col-sm-6">
+				<div class="wow staff-unit fadeInDown animated" data-wow-offset="150">
+					<div class="staff-face-4"></div>
+					<h3>Steven Novak</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae similique, illum quia, ipsa a temporibus ratione libero aliquam debitis itaque accusamus veritatis eaque, necessitatibus, voluptatem distinctio! Exercitationem harum, atque molestiae!</p>
+					<div class="job-title-holder">
+						<p>IT Manager</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-
-<div class="rest-team-holder">
-	<a href="">
-		<p class="rest-team-members">Chek out the rest of our team <span class="glyphicon glyphicon-chevron-right"></span></p>
-	</a>
-</div>
-
-	
-
-<em class="go-ahead">
-
-	and<br/>
-	//  go ahead with <br/>
-	 these people  // 
-
-</em>
-
-
-
-
+	<!-- [END] Container -->
+	<div class="rest-team-holder">
+		<a href="">
+			<p class="rest-team-members">Chek out the rest of our team <span class="glyphicon glyphicon-chevron-right"></span></p>
+		</a>
+	</div>
+	<em class="go-ahead">
+		and<br/>
+		//  go ahead with <br/>
+		 these people  // 
+	</em>
 </section>
-  <section id="stats" data-speed="6" data-type="background">
+<!-- [END] Section Staff 
+  <!-- [START] Section Stats -->
+<section id="stats" data-speed="6" data-type="background">
 	<div class="parallax-angle-up"></div>
 
 	<div class="stats-icon">
@@ -490,9 +487,8 @@
 	</div>
 	<h2>Statistics</h2>
 	<div class="decoration"></div>
-	
+
 	<div class="stats-wrapper">
-		
 		<div class="icon-holders">
 			<div class="icon-unit">
 				<?xml version="1.0" encoding="iso-8859-1"?>
@@ -605,14 +601,11 @@
 			<em>2500 <br/>
 			happy clients</em>
 		</div>
-
 	</div>
-
-
 	<div class="parallax-angle-down"></div>
 </section>
+<!-- [END] Section Stats -->
   <section id="clients">
-	
 	
 	<div class="clients-icon">
 		<?xml version="1.0" encoding="utf-8"?>
@@ -960,7 +953,7 @@
 
 		
 		
-		<div class="news-unit-holder">
+		<div class=" wow news-unit-holder fadeInDown animated" data-wow-offset="120">
 			<h3 class="news-date">
 				<span>31</span> | October | 2014 
 			</h3>
@@ -999,7 +992,7 @@
 		</div>
 		
 		
-		<div class="news-unit-holder">
+		<div class=" wow news-unit-holder fadeInDown animated" data-wow-offset="120">
 			<h3 class="news-date">
 				<span>30</span> | October | 2014 
 			</h3>
@@ -1038,7 +1031,7 @@
 		</div>
 		
 		
-		<div class="news-unit-holder">
+		<div class=" wow news-unit-holder fadeInDown animated" data-wow-offset="120">
 			<h3 class="news-date">
 				<span>29</span> | October | 2014 
 			</h3>
@@ -1155,13 +1148,13 @@
 
 		<div class="contact-units-holder">
 			
-			<div class="contact-unit" id="call-us">
+			<div class="wow contact-unit fadeInDown animated" data-wow-offset="120" id="call-us">
 				<p>Call us :</p>
 				<div class="contact-unit-decoration"></div>
 				<p class="our-pone">55-555-55</p>
 			</div>
 			
-			<div class="contact-unit" id="stalk-us">
+			<div class="wow contact-unit fadeInDown animated" data-wow-offset="120" data-wow-delay="0.25s" id="stalk-us">
 				<p>Stalk us:</p>
 				<div class="contact-unit-decoration"></div>
 				<div class="contact-icons-wrapper">
@@ -1226,7 +1219,7 @@
 				</div>
 			</div>
 
-			<div class="contact-unit" id="find-us">
+			<div class="wow contact-unit fadeInDown animated" data-wow-offset="120" data-wow-delay="0.5s" id="find-us">
 				<p>Find us :</p>
 				<div class="contact-unit-decoration"></div>
 				<p class="our-adress">
