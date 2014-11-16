@@ -15,7 +15,7 @@ Local-Logistic-Project
     Through this project, I learned the following things:
   	
   	2.1. Structure of HTML5 file.
-  	2.2. Basics of CSS3 and SASS (nested elements are awesome!).
+  	2.2. Basics of CSS3 and SCSS (nested elements are awesome!).
   	2.3. Jekyll (http://jekyllrb.com/) as a simply Blog CMS based on RUBY. 
          This includes files such as settings.yml, where the addition of new customer 
          data adds new elements to the slider on the page. Likewise the posts. 
