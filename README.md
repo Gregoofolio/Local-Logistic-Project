@@ -67,7 +67,7 @@ Ad.4
      1. Position of staff-faces on mobile.
      2. Color of "Local Logistic - Global Standards" on mobile. It blurs with color of the track.
      3. Make te slider dots more optimized on mobile- when you change dot you need to slide up to see logo.
-     4. Make te corelation between footer and map more intuitive. Mais scrolling instead of footer.
+     4. Make te corelation between footer and map more intuitive. Map is scrolling instead of footer.
      5. Make better parallaxes on mobile.
      6. Use fittext or @media to reduce size of title at start for the smallest srceens.
 7.Design
